@@ -197,6 +197,9 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="300" as="sourcePoint" />
             <mxPoint x="520" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="230" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="IBeA-qBod7ERNYGKycNB-110" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.015;entryY=0.241;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.997;exitY=1.101;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IBeA-qBod7ERNYGKycNB-94" target="IBeA-qBod7ERNYGKycNB-11">
