@@ -175,6 +175,30 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="IBeA-qBod7ERNYGKycNB-93" value="Nodo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="160" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="IBeA-qBod7ERNYGKycNB-94" value="- dato: int &lt;br&gt;- valor: int&lt;br&gt;- color: Color&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IBeA-qBod7ERNYGKycNB-93">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="IBeA-qBod7ERNYGKycNB-95" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="IBeA-qBod7ERNYGKycNB-93">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="IBeA-qBod7ERNYGKycNB-96" value="+ Nodo(dato: int, izq: Nodo, der: Nodo)&lt;br/&gt;+ getDato(): int&lt;br/&gt;+ setDato(dato: int): void&lt;br/&gt;+ getIzq(): Nodo&lt;br/&gt;+ setIzq(izq: Nodo): void&lt;br/&gt;+ getDer(): Nodo&lt;br/&gt;+ setDer(der: Nodo): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IBeA-qBod7ERNYGKycNB-93">
+          <mxGeometry y="88" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="IBeA-qBod7ERNYGKycNB-105" value="&lt;div&gt;&lt;span lang=&quot;es&quot; class=&quot;BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;&amp;lt;&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;es&quot; class=&quot;BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;&amp;lt;Enum&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;es&quot; class=&quot;BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;span lang=&quot;es&quot; class=&quot;BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;span lang=&quot;es&quot; class=&quot;BxUVEf ILfuVd&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;Color&lt;/span&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="221" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IBeA-qBod7ERNYGKycNB-106" value="&lt;div&gt;ROJO&lt;/div&gt;&lt;div&gt;NEGRO&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IBeA-qBod7ERNYGKycNB-105">
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="IBeA-qBod7ERNYGKycNB-109" value="" style="endArrow=none;html=1;rounded=0;exitX=0.992;exitY=0.059;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IBeA-qBod7ERNYGKycNB-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
