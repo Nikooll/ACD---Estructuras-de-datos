@@ -37,7 +37,7 @@ Métodos como recorrer(), vaciar(), y obtenerTamano() permiten manipular y obten
 **ListaSimple:** Permite obtener un elemento en una posición específica y agregar elementos después de otro.
 
 
-**ListaDoblemente:** Extiende Lista para soportar operaciones como obtener el primer y último elemento de manera eficiente.
+**ListaDoblemente:** Permite soportar operaciones como obtener el primer y último elemento de manera eficiente.
 
 
 **ListaEnlazadaSimple:** Verifica si la lista está vacía con el método estaVacia().
@@ -55,25 +55,33 @@ Métodos como recorrer(), vaciar(), y obtenerTamano() permiten manipular y obten
 ## 6. Clase ArbolBinario:
 
 Representa un árbol binario con atributos como raiz, altura, subizq, subder, niveles, y numeroRamas.
-Métodos incluyen buscarValor(), varios métodos de recorrido (inOrden, postOrden, preOrden), y métodos para obtener características del árbol como altura, número de ramas, entre otros.
+
+
+**Métodos:** incluyen buscarValor(), métodos de recorrido (inOrden, postOrden, preOrden), y métodos para obtener características del árbol como altura, número de ramas, entre otros.
 
 
 ## 7. Subclases de ArbolBinario:
 
 **ArbolAVL:** Contiene operaciones de rotación simple y doble para mantener el balance del árbol.
+
+
 **ArbolRojoNegro:** Contiene rotaciones izquierda y derecha.
 
 
 ## 8. Clase Grafo:
 
 Modela un grafo usando listas para nodos (nodo) y aristas (arista).
-Métodos que incluyen agregarNodo, agregarArista, eliminarNodo, y eliminarArista.
+
+
+**Métodos:** incluyen agregarNodo, agregarArista, eliminarNodo, y eliminarArista.
 
 
 ## 9. Clase Arista:
 
 Representa una conexión entre dos nodos, con atributos origen y destino.
-Métodos que permiten establecer y obtener los nodos origen y destino.
+
+
+**Métodos:** que permiten establecer y obtener los nodos origen y destino.
 
 
 ## 10. Enum Color:
