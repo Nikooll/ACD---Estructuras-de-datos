@@ -34,12 +34,22 @@ Métodos como recorrer(), vaciar(), y obtenerTamano() permiten manipular y obten
 
 ## 5. Subclases de Lista:
 
-ListaSimple: Permite obtener un elemento en una posición específica y agregar elementos después de otro.
-ListaDoblemente: Extiende Lista para soportar operaciones como obtener el primer y último elemento de manera eficiente.
-ListaEnlazadaSimple: Verifica si la lista está vacía con el método estaVacia().
-ListaCircularSimple: Permite operaciones de lista circular como agregar al inicio, eliminar el último y recorrer circularmente.
-ListaDoblementeCircular: Combina características de lista doblemente enlazada y lista circular.
-ListaDoblementeEnlazada: Permite verificar si la lista está vacía.
+**ListaSimple:** Permite obtener un elemento en una posición específica y agregar elementos después de otro.
+
+
+**ListaDoblemente:** Extiende Lista para soportar operaciones como obtener el primer y último elemento de manera eficiente.
+
+
+**ListaEnlazadaSimple:** Verifica si la lista está vacía con el método estaVacia().
+
+
+**ListaCircularSimple:** Permite operaciones de lista circular como agregar al inicio, eliminar el último y recorrer circularmente.
+
+
+**ListaDoblementeCircular:** Combina características de lista doblemente enlazada y lista circular.
+
+
+**ListaDoblementeEnlazada:** Permite verificar si la lista está vacía.
 
 
 ## 6. Clase ArbolBinario:
