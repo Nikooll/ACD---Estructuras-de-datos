@@ -11,7 +11,7 @@
           <mxGeometry y="30" width="150" height="54" as="geometry" />
         </mxCell>
         <mxCell id="IBeA-qBod7ERNYGKycNB-6" value="ArbolBinario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1440" y="160" width="320" height="350" as="geometry" />
+          <mxGeometry x="1440" y="160" width="320" height="340" as="geometry" />
         </mxCell>
         <mxCell id="IBeA-qBod7ERNYGKycNB-7" value="- raiz: Nodo&lt;br&gt;- altura: int&lt;br&gt;- subizq: int&lt;br&gt;- subder: int&lt;br&gt;- niveles: String&lt;br&gt;- numeroRamas: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="IBeA-qBod7ERNYGKycNB-6" vertex="1">
           <mxGeometry y="26" width="320" height="114" as="geometry" />
@@ -19,8 +19,8 @@
         <mxCell id="IBeA-qBod7ERNYGKycNB-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="IBeA-qBod7ERNYGKycNB-6" vertex="1">
           <mxGeometry y="140" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="IBeA-qBod7ERNYGKycNB-9" value="+ buscarValor(): int&lt;br&gt;+ recorridoInorden(): int&lt;br&gt;+ recorridoPostorden(): int&lt;br&gt;+ recorridoPreorden(): int&lt;br&gt;+ altura:(): int&lt;br&gt;+ imprimirInorden(): void&lt;br&gt;+ imprimirPostorden(): void&lt;br&gt;+ imprimirPreorden(): void&lt;br&gt;&lt;div&gt;+ menorValor(): String&lt;br&gt;+ mayorValor(): String&lt;br&gt;+ ObtenerRamamayor(): ArrayList&amp;lt;String&amp;gt;&lt;br&gt;+ obtenernumeroRamas(pivote: Nodo, contador: int): void&lt;br&gt;+ ObtenerRamamayor(pivote: Nodo, contador: int, dato:&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="IBeA-qBod7ERNYGKycNB-6" vertex="1">
-          <mxGeometry y="148" width="320" height="202" as="geometry" />
+        <mxCell id="IBeA-qBod7ERNYGKycNB-9" value="+ buscarValor(): int&lt;br&gt;+ recorridoInorden(): int&lt;br&gt;+ recorridoPostorden(): int&lt;br&gt;+ recorridoPreorden(): int&lt;br&gt;+ altura:(): int&lt;br&gt;+ imprimirInorden(): void&lt;br&gt;+ imprimirPostorden(): void&lt;br&gt;+ imprimirPreorden(): void&lt;br&gt;&lt;div&gt;+ menorValor(): String&lt;br&gt;+ mayorValor(): String&lt;br&gt;+ ObtenerRamamayor(): ArrayList&amp;lt;String&amp;gt;&lt;br&gt;+ obtenernumeroRamas(pivote: Nodo, contador: int): void&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="IBeA-qBod7ERNYGKycNB-6" vertex="1">
+          <mxGeometry y="148" width="320" height="192" as="geometry" />
         </mxCell>
         <mxCell id="IBeA-qBod7ERNYGKycNB-10" value="Lista" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="160" width="160" height="150" as="geometry" />
@@ -305,13 +305,13 @@
         <mxCell id="bUAnHqxPPhnKvM_vE2kB-17" value="+ rotaciónIzquierda(): void&lt;br&gt;+ rotaciónDerecha(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bUAnHqxPPhnKvM_vE2kB-14">
           <mxGeometry y="26" width="150" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="bUAnHqxPPhnKvM_vE2kB-18" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.769;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bUAnHqxPPhnKvM_vE2kB-14" target="IBeA-qBod7ERNYGKycNB-9">
+        <mxCell id="bUAnHqxPPhnKvM_vE2kB-18" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.766;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bUAnHqxPPhnKvM_vE2kB-14" target="IBeA-qBod7ERNYGKycNB-9">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1480" y="550" as="sourcePoint" />
-            <mxPoint x="1640" y="550" as="targetPoint" />
+            <mxPoint x="1686" y="502" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bUAnHqxPPhnKvM_vE2kB-19" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.541;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bUAnHqxPPhnKvM_vE2kB-10">
+        <mxCell id="bUAnHqxPPhnKvM_vE2kB-19" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.541;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.259;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bUAnHqxPPhnKvM_vE2kB-10" target="IBeA-qBod7ERNYGKycNB-9">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1480" y="550" as="sourcePoint" />
             <mxPoint x="1522" y="512" as="targetPoint" />
