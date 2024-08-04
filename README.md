@@ -11,7 +11,7 @@ Clase Abstracta
 
 **EstructuraDatos:**
 
-Es la clase base de la cual heredan otras clases que manejan estructuras de datos. 
+Esta clase es la cual heredan otras clases que manejan estructuras de datos. 
 
 ## 2. Clase Nodo:
 
