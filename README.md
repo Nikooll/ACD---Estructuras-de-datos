@@ -21,6 +21,8 @@ Representa un nodo, que es la unidad básica de muchas estructuras de datos.
 ## 3. Clases que Extienden Nodo:
 
 **NodoSimple:** Tiene atributos izquierda y derecha.
+
+
 **NodoDoble:** Tiene atributos de NodoSimple, también contiene siguiente y anterior, permitiendo recorrer la estructura en ambas direcciones.
 
 
